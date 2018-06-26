@@ -1,0 +1,5 @@
+Django==2.0.1
+django-redis==4.9.0
+
+#aliyun sms RPC
+aliyun-python-sdk-core-v3>=2.3.5
