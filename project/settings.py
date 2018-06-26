@@ -128,7 +128,7 @@ ALIYUN_ACCESS_KEY_ID = ''
 ALIYUN_ACCESS_KEY_SECRET = ''
 
 # please enable luosimao when need sms gateway
-# SMS_BACKEND = 'users.sms.backends.luosimao.LuosimaoSMSBackend'
+# SMS_BACKEND = 'sms.backends.luosimao.LuosimaoSMSBackend'
 # otherwise we use a dummy client
-SMS_BACKEND = 'users.sms.backends.dummy.DummySMSBackend'
+SMS_BACKEND = 'sms.backends.dummy.DummySMSBackend'
 

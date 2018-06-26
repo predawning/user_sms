@@ -16,7 +16,7 @@ a sms utils for user login/register use case
     # it only used for test environment
     
     # aliyun version and luosimao version are for product environment
-    SMS_BACKEND = 'users.sms.backends.dummy.DummySMSBackend'
+    SMS_BACKEND = 'sms.backends.dummy.DummySMSBackend'
 
     if need to share the user code in cluster still need to config the redis cache
     e.g.

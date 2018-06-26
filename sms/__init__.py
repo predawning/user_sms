@@ -1,6 +1,6 @@
 from django.conf import settings
 from django.utils.module_loading import import_string
-from users.sms.backends.constants import LOGIN_CASE, REGISTER_CASE, PHONE_REGEX, PASSWORD_CHANGE_CASE
+from sms.backends.constants import LOGIN_CASE, REGISTER_CASE, PHONE_REGEX, PASSWORD_CHANGE_CASE
 
 import logging
 
